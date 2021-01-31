@@ -1,0 +1,15 @@
+provider "aws" {
+    region = "us-east-2"
+}
+
+resource "aws_instance" "example" {
+    ami = "ami-example"
+    instance_type = "example"
+    availability_zone = "us-east-2a"
+    key_name = "example-key"
+    vpc_security_group_ids = [ "sg-example" ]
+    tags = {
+      "env" = "example"
+    }
+  
+}
