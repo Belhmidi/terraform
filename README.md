@@ -15,4 +15,4 @@ Terrefrom IAC code for AWS and GCP. To install Terraform on Windows System go to
 
 * Click New and Add the path to the Terraform executable location.
 
-* Save changes and then click OK to exit 
+* Save changes and then click OK to exit. 
